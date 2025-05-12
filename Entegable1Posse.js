@@ -1,25 +1,21 @@
 // Información de los eventos
-const Evento1 = {
+// Crear un array con los objetos de los eventos
+const eventos = [{
     nombre: "Concierto de Los Piojos",
     lugar: "Estadio Unión de Santa Fe",
     fecha: "2025-09-26",
     precio: 50000
-};
-const Evento2 = {
+}, {
     nombre: "Obra de teatro",
     lugar: "Centro Cultural",
     fecha: "2025-10-15",
     precio: 9000
-};
-const Evento3 = {
+}, {
     nombre: "Concierto de La Renga",
     lugar: "Estadio Obras",
     fecha: "2025-11-20",
     precio: 20000
-};
-
-// Crear un array con los objetos de los eventos
-const eventos = [Evento1, Evento2, Evento3];
+}];
 
 // Funcion para mostrar los eventos en la consola
 function mostrarEventos() {
